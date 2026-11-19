@@ -5,9 +5,9 @@
 | | Integrante 1 | Integrante 2 |
 | --- | --- | --- |
 | Nome | Daniel Andrade Ferreira | ___ |
-| Sistema operacional | Windows via WSL | ___ |
-| Tipo de disco (HDD, SSD SATA ou NVMe) | NVMe | ___ |
-| Modelo do disco | KIOXIA KBG40ZNS256G | ___ |
+| Sistema operacional | Windows via WSL | 	Windows 11 Home|
+| Tipo de disco (HDD, SSD SATA ou NVMe) | NVMe |SSD NVMe|
+| Modelo do disco | KIOXIA KBG40ZNS256G | KIOXIA KBG40ZNS256G — 256 GB |
 | Ferramenta usada (fio, CrystalDiskMark, WSL) | fio no WSL | ___ |
 
 ## Passo 1 — Os dois testes
@@ -64,12 +64,10 @@
 
 **Pergunta 4.** Justifiquem as duas escolhas em até quatro linhas, usando os números medidos.
 
-> Para vídeo 4K, escolhemos NVMe porque medimos 135 MB/s em leitura sequencial.
-> Para o banco, escolhemos NVMe porque medimos 2600 IOPS em leitura aleatória
-> de 4 KB, com latência média de 12,301 ms.
+> Para vídeo 4K, priorizamos throughput e escolhemos o NVMe, com 135 MB/s.
+> Para o banco, priorizamos IOPS e latência e escolhemos o NVMe,
+> com 2600 IOPS e 12,301 ms de latência média.
 
 ## Para o debate
 
 A frase que a dupla vai dizer na sala principal (1 minuto):
-
->
